@@ -18,7 +18,7 @@ Avec la liste d'outils ci-desous :
 
 L'objectif est de  : 
 
-- créer une mini application capable d'afficher dans un tableau contenant une liste d'éléments intégrés en Boostrap et avc Datatable. 
+- créer une mini application capable d'afficher dans un tableau contenant une liste d'éléments intégrés en Boostrap et avec Datatable. 
 - la liste d'éléments sera ce que vous voulez mais il devra y avoir à minima, un label, une description (sur une seule ligne et automatiquement tronquée selon la taille de l'écran), une photo, une date d'ajout (au format "Ajouté il y a XX minutes"), un bouton pour ouvrir le détail de l'élément dans une modal
 - mettre en place une fausse API grace à jsonPlaceholder
 - mettre en place une pagination
