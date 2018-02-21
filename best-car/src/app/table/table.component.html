@@ -1,0 +1,19 @@
+<table datatable class="row-border hover">
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Description</th>
+      <th>Photo</th>
+      <th>Date Ajout</th>
+      <th>Détail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let albulm of albulms">
+      <td>{{albulm.id}}</td>
+      <td>{{albulm.url}}</td>
+      <td>{{albulm.thumbnailUrl}}</td>
+      <td><button type="button" class="btn btn-success">Détail</button></td>
+    </tr>
+  </tbody>
+</table>
