@@ -9,11 +9,13 @@ import { TableComponent } from './table/table.component';
 import { HttpClientModule }    from '@angular/common/http';
 
 import { DataService } from './data.service';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

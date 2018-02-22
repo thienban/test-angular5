@@ -1,6 +1,7 @@
 export class Albulm{
-    id: number;
-    title: string;
-    //url: string;
-    //thumbnailUrl:string;
+    constructor(
+        public pseudo: string,
+        public imageURL: string,
+        public score: number
+      ){ }
 }

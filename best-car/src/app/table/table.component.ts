@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Albulm } from '../albulm';
 import { DataService } from '../data.service';
+import { Subject } from 'rxjs/Subject';
+import { Http, Response } from '@angular/http';
 
 
 
@@ -11,7 +13,7 @@ import { DataService } from '../data.service';
 })
 export class TableComponent implements OnInit {
   albulms : Albulm[];
-  
+
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
@@ -19,6 +21,8 @@ export class TableComponent implements OnInit {
   }
 
   getData() : void{
-    this.dataService.getData().subscribe(albulms => this.albulms = albulms);
+    this.dataService.getData().subscribe(albulms => 
+      this.albulms = albulms);
   }
+
 }
